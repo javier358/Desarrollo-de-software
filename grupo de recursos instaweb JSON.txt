@@ -1,0 +1,8 @@
+{
+    "id": "/subscriptions/abd8ab10-9307-45a0-b3a1-1e4fea1674c8/resourceGroups/Instaweb",
+    "name": "Instaweb",
+    "location": "centralus",
+    "properties": {
+        "provisioningState": "Succeeded"
+    }
+}

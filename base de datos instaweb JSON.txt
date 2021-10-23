@@ -1,0 +1,37 @@
+{
+    "sku": {
+        "name": "GP_Gen5_4",
+        "tier": "GeneralPurpose",
+        "family": "Gen5",
+        "capacity": 4
+    },
+    "properties": {
+        "administratorLogin": "mysqldbuser",
+        "storageProfile": {
+            "storageMB": 102400,
+            "backupRetentionDays": 7,
+            "geoRedundantBackup": "Disabled",
+            "storageAutogrow": "Disabled"
+        },
+        "version": "5.7",
+        "sslEnforcement": "Disabled",
+        "minimalTlsVersion": "TLSEnforcementDisabled",
+        "userVisibleState": "Disabled",
+        "fullyQualifiedDomainName": "instaweb-mysqldbserver.mysql.database.azure.com",
+        "earliestRestoreDate": "2021-10-16T20:55:21.5681175+00:00",
+        "replicationRole": "None",
+        "masterServerId": "",
+        "replicaCapacity": 5,
+        "byokEnforcement": "Disabled",
+        "privateEndpointConnections": [],
+        "infrastructureEncryption": "Disabled",
+        "publicNetworkAccess": "Enabled"
+    },
+    "location": "centralus",
+    "tags": {
+        "AppProfile": "Wordpress"
+    },
+    "id": "/subscriptions/abd8ab10-9307-45a0-b3a1-1e4fea1674c8/resourceGroups/Instaweb/providers/Microsoft.DBforMySQL/servers/instaweb-mysqldbserver",
+    "name": "instaweb-mysqldbserver",
+    "type": "Microsoft.DBforMySQL/servers"
+}
